@@ -37,6 +37,12 @@
             "type": "node"
         },
         {
+            "name": "vue自动埋点",
+            "program": "${workspaceFolder}/exercize-auto-track/vue/index.js",
+            "request": "launch",
+            "type": "node"
+        },
+        {
             "name": "acorn 插件",
             "program": "${workspaceFolder}/exercize-acorn-plugin-guang-keyword/src/index.js",
             "request": "launch",
@@ -63,6 +69,12 @@
         {
             "name": "自动生成 api 文档",
             "program": "${workspaceFolder}/exercize-auto-document/src/index.js",
+            "request": "launch",
+            "type": "node"
+        },
+        {
+            "name": "own自动生成 api 文档",
+            "program": "${workspaceFolder}/exercize-auto-document/own/index.js",
             "request": "launch",
             "type": "node"
         },
